@@ -83,7 +83,7 @@ export default function App() {
                   Delores Winfield
                 </a>{" "}
                 and is
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/dwinfield23/admiring-ives-df3rws/tree/main/public" target="_blank" rel="noreferrer">
                   {" "}
                   on GitHub
                 </a>{" "}
