@@ -8,8 +8,8 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <App />
   <weather/>
+    <App />
   </StrictMode>
 );
 function changeWeather(response) {
