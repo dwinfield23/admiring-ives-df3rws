@@ -9,6 +9,7 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <App />
+  <weather/>
   </StrictMode>
 );
 function changeWeather(response) {
