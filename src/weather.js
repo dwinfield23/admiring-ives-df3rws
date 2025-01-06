@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-
+import axios from "axois";
 
 export default function Weather(props) {
-  
+  return(
   function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
@@ -45,6 +45,6 @@ function formatDate(date) {
   let currentDateELement = document.querySelector("#current-date");
   let currentDate = new Date();
   currentDateELement.innerHTML = formatDate(currentDate);
-}
+})
 }
 
