@@ -11,8 +11,8 @@ export default function weather(props) {
   let apiKey = "3a94f3778290bfeee61278505dbbe51d";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
 
-  axios.get(apiUrl).then(changeWeather);
-}
+  axios.get(apiUrl).then(changeWeather)
+})
 function formatDate(date) {
   let minutes = date.getMinutes();
   let hours = date.getHours();
@@ -35,7 +35,7 @@ function formatDate(date) {
     "Friday",
     "Saturday",
   ];
-)
+
   let formattedDay = days[day];
   return `${formattedDay} ${hours} ${minutes}`;
 
