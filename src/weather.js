@@ -8,7 +8,7 @@ export default function Weather(props) {
   let searchInputElement = document.querySelector("#search-input");
   let city = searchInputElement.value;
 
-  let apiKey = "da335f13db1db46eo138ac1a2af9tbe0";
+  let apiKey = "3a94f3778290bfeee61278505dbbe51d";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
 
   axios.get(apiUrl).then(changeWeather);
