@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
-
-export default function weather(props){
+export default function Weather(props) {
   
   function search(event) {
   event.preventDefault();
